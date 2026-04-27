@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 const AddStudentForm = ({ onAddStudent }) => {
   const [name, setName] = useState("");
   const [score, setScore] = useState("");

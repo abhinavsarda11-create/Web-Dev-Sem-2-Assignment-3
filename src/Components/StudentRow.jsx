@@ -1,5 +1,4 @@
-import React from 'react'
-import { useState } from "react";
+import React, { useState } from 'react'
 
 const getGrade = (score) => {
   if (score >= 90) return { letter: "A+", cls: "grade-a-plus" };

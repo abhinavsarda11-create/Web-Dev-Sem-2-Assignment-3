@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import StudentRow from "./StudentRow";
 
 const StudentTable = ({ students, onUpdateScore }) => {
